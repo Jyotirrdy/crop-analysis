@@ -1,0 +1,19 @@
+[project]
+name = "crop-analysis"
+version = "0.1.0"
+description = "A simple Python project for crop yield analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+crop-analysis = "crop_analysis.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

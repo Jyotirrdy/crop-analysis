@@ -1,0 +1,9 @@
+crop,region,season,area_hectares,production_tons,rainfall_mm
+Wheat,North,Winter,100,280,620
+Wheat,Central,Winter,90,252,710
+Rice,East,Monsoon,80,320,920
+Rice,South,Monsoon,70,301,860
+Maize,West,Summer,60,162,540
+Maize,Central,Summer,50,145,680
+Soybean,North,Summer,55,132,590
+Soybean,East,Summer,65,182,760
